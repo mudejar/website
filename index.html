@@ -21,10 +21,10 @@
     <!-- Button menu for links to resume, about page, projects-->
     <div class="row">
     	<div class="small-7 small-centered columns">
-    		<a onclick="goToAboutPage" class="button" name="about">Home</a>
-    		<a onclick="goToResumePage" class="button" name="resume">Resume</a>
-    		<a onclick="goToProjects" class="button" name="projects">Projects</a>
-    		<a onclick="goToContactInfo" class="button" name="contact">Contact</a>
+    		<a onclick='window.location.href="index.html"' class="button" name="about">Home</a>
+    		<a onclick='window.location.href="resume.html"' class="button" name="resume">Resume</a>
+    		<a onclick='window.location.href="projects.html"' class="button" name="projects">Projects</a>
+    		<a onclick='window.location.href="contact.html"' class="button" name="contact">Contact</a>
         </div>
     </div>
     
@@ -171,6 +171,7 @@
     </div>
     
     <script src="js/vendor/jquery.js"></script>
+    <script src="js/vendor/fastclick.js"></script>
     <script src="js/foundation.min.js"></script>
     <script>
       $(document).foundation();
